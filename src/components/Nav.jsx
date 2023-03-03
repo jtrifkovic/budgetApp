@@ -25,6 +25,8 @@ const Nav = ({ userName }) => {
             onSubmit={(event) => {
               if (!confirm("Delete user and all data?")) {
                 event.preventDefault()
+              } else{
+                localStorage.clear()
               }
             }}
           >
