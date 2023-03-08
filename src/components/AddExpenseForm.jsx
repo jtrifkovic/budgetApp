@@ -18,7 +18,7 @@ const AddExpenseForm = ({budgets}) => {
     },[isSubmitting])
 
   return (
-    <div className='form-wrapper'>
+    <div className='form-wrapper' style={{marginTop: "-10px"}}>
         <h2 className="h3">
             Add New{" "}<span className="accent">
                 {budgets.length === 1 && `${budgets.map((budg) => budg.name)}`}

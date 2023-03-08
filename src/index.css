@@ -38,7 +38,7 @@ svg {
   --warning: 4 66% 63%;
 
   /* utils */
-  --space-xs: 8px;
+  --space-xs: 3px;
   --space-sm: 16px;
   --space-md: 24px;
   --space-lg: 32px;
