@@ -482,6 +482,7 @@ select {
   gap: var(--space-sm);
   text-decoration: none;
   color: hsl(var(--backdrop));
+  margin-top: 10px;
 }
 
 .budget > .flex-sm {

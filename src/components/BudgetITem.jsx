@@ -9,7 +9,8 @@ const BudgetItem = ({ budget }) => {
     <div
       className="budget"
       style={{
-        "--accent": color 
+        "--accent": color,
+        marginTop: "10px !important"
       }}
     >
       <div className="progress-text">
